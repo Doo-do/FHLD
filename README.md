@@ -1,8 +1,10 @@
 # FHLD: Flexible 3D Lanes Detection by Hierarchical Shape Matching
 
+![image](https://user-images.githubusercontent.com/118958290/221391678-70ed0499-40b2-42a3-a4a5-769b88e72a1f.png)
+
 This is an official repository of Flexible 3D Lanes Detection by Hierarchical Shape Matching.
 
-[We are busy cleanning up and reviewing our codes recently, and will release the codes ASAP. Thanks for your patience.]
+[We are busy reviewing our codes recently, and will release the codes ASAP (no later than summer holiday). Thanks for your patience.]
 
 
 ![image](https://user-images.githubusercontent.com/118958290/209803985-311cde29-b03b-48bc-9674-36a8e0b5af77.png)
