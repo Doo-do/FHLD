@@ -1,0 +1,55 @@
+{
+    "system": {
+        "dataset": "CUSTOM",
+        "batch_size": 64,
+        "chunk_sizes": [64],
+
+        "sampling_function": "kp_detection",
+
+        "train_split": "train",
+        "val_split": "test",
+        "test_split": "test",
+
+        "neg_sampling_rate": 80,
+        "roi_r": 18,
+
+        "learning_rate": 1e-3,
+        "decay_rate": 7,
+        "changeiter": 1,
+
+        "val_iter": 0,
+        "display": 200000000,
+
+        "opt_algo": "adam",
+        "prefetch_size": 5,
+
+        "max_iter": 500000,
+        "stepsize": 50000,
+        "snapshot": 100,
+
+        "cache_dir": "./cache",
+        "result_dir": "./results",
+        "data_dir": "/data/duduguan/LSTR-Custom-Base (copy 1)/raws/oneLine",
+
+        "res_layers": [2, 2, 2, 1],
+        "res_dims": [32, 64, 128, 256],
+        "res_strides": [1, 2, 2, 2],
+        "attn_dim": 128,
+        "dim_feedforward": 128,
+
+        "kps_dim": 8,
+
+        "num_heads": 4,
+        "enc_layers": 3,
+        "dec_layers": 3,
+        "block": "BasicBlock",
+        "num_queries": 15
+    },
+    
+    "db": {
+        "rand_color": false,
+        "input_size": [640, 640], 
+        "test_scales": [1],
+        "categories": 1
+    }
+}
